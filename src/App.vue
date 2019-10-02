@@ -36,7 +36,7 @@ export default {
       fetch(
         'http://api.openweathermap.org/data/2.5/find?q=${
           this.city
-        }&units=imperial&appid=6b3705bb90e87433d0711ed38d1e6062'
+        }&units=metric&appid=6b3705bb90e87433d0711ed38d1e6062'
       )
        .then(response => response.json())
         .then(response => {
